@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+<center>
+<a href="../inicio.html">ir a inicio</a>
+<H1> Contactanos </H1>
+<P>Direccion: Cra 46 # 45-47
+<p>Medellin, Antioquia, Colombia</p>
+<p>Telefono: 6043535 Opc: 1, Ext:201</p>
+<p>E-mail:Drogasmonaco@drogasmonaco.com</p>
+<!--esta etiqueta es para titulos-->
+<img src="../imagenes/contactenos.jpg" width="20%" alt=""> <br>
+<form>
+    <label>Escrite tu Nombre</label><br>
+    <input required name="nombre" type="text" placeholder="Nombre y Apellido"> <br>
+    <label>Escribe tu edad</label> <br>
+    <input name="edad" type="number" min="18" max="55"> <br>
+    <label> Escribe tu telefono</label> <br>
+    <input name="telf" type="tel"> <br>
+    <label>Fecha de Nacimiento</label> <br>
+    <input name="fecha" type="date" min="2004-12-31" max="2023-12-31"> <br>
+    <label> Selecciona Genero</label>
+    <input value="hombre" name="Genero"type="radio"> Hombre
+    <input value="mujer" name="Genero"type="radio"> Mujer
+    <input value="binario" name="Genero"type="radio"> Binario
+    <input value="no se" name="Genero"type="radio"> No se <br>
+    <label> Selecciona Medicamento</label>
+    <input value="Antthipertensivos" name="Medicamento"type="Checkbox"> Antthipertensivos
+    <input value="Hipoglicemientas" name="Medicamento"type="Checkbox"> Hipoglicemientas
+    <input value="Hipolipemientes" name="Medicamento"type="Checkbox"> Hipolipemientes
+    <input value="SNC" name="Medicamento"type="Checkbox"> SNC <br>
+    <label> Escribe tu correo</label>
+    <input type="email"> <br>
+    <label> Escribe tu contraseña</label> <br>
+    <input type="password"> <br>
+    <label>Escoje Color</label> <br>
+    <input type="color"> <br>
+    <label>Escoje una foto</label> <br>
+    <input type="file" accept=".jpg, .png, .gif"> <br> <br>
+    <label> Como quieres que te contaten</label> <br>
+    <select name="Contacto"multiple>
+        <option value="humo">Señales de humo </option>
+        <option value="paloma">Paloma mensajera </option>
+        <option value="whatsap">Whatsap </option>
+        <option value="Correo">Correo </option>
+    </select> <br> <br>
+    <label>Escribe tu mensaje</label> <br>
+    <textarea name="Mensaje" cols="40" rows="20"></textarea> <br>
+    <button type="reset"> borrar datos</button>
+    <button type="button"> no hacer nada</button>
+    <button type="submit"> enviar los datos</button>
+
+</form>
+</center>
+</body>
+</html>
